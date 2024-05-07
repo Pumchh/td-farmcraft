@@ -14,8 +14,6 @@ function attachToolsEvents(event1){
     for(const tool of tools){
         tool.classList.toggle('active', tool === event1.target)
     }
-
-    
 }
 
 
@@ -97,8 +95,6 @@ function farmEvent(){
         })
     }
 }
-
-
 
 
 
